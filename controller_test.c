@@ -56,8 +56,9 @@ int main() {
 
 
 /*
+gcc -Wall -c controller.c -o controller.o
 gcc -Wall -LC:/CUnit-2.1-3/CUnit/Sources/.libs -IC:/CUnit-2.1-3/CUnit/Headers -o controller_test controller_test.c controller.o -lcunit
-
+controller_test.exe
 
 gcc -Wall -c controleur_rover.c -o controleur_rover.o
 gcc -Wall -LC:/CUnit-2.1-3/CUnit/Sources/.libs -IC:/CUnit-2.1-3/CUnit/Headers -o controleur_rover_test controleur_rover_test.c controleur_rover.o -lcunit
